@@ -22,11 +22,11 @@ header h1{
 .allSkills{
   display: flex;
   align-items: stretch;
-  width:1000px;
+  width:80%;
 }
 
 .skills{
-  width:33%;
+  flex-grow:1;
   text-align: left;
 }
 .skills ul{
@@ -120,6 +120,7 @@ header h1{
 .history .summary.job .details>ul li{
   margin-bottom:5px;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -145,5 +146,15 @@ header h1{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media print {
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
   }
 }
