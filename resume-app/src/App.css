@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  letter-spacing: .01em;
 }
 
 .App-logo {
@@ -8,7 +9,7 @@
 }
 
 header h1{
-  letter-spacing: .025em;
+  letter-spacing: .01em;
   background-color: #282c34;
   width:100%;
   
@@ -92,8 +93,7 @@ header h1{
 }
 
 .allJobs{
-  width:80%;
-  margin-left:10%;
+  margin-left:5px;
   font-size: 1em;
 }
 
@@ -102,7 +102,7 @@ header h1{
 }
 
 .history .summary.job .name{
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-transform: capitalize;
 }
 
@@ -121,6 +121,9 @@ header h1{
   margin-bottom:5px;
 }
 
+.field, .title-terms{
+  width: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
