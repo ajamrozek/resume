@@ -1,13 +1,6 @@
 .App {
   text-align: center;
   letter-spacing: .01em;
-  width: auto;     
-  border: 0;     
-  margin: 0 5%;     
-  padding: 0;     
-  float: none;     
-  position: static;     
-  overflow: visible;
 }
 
 .App-logo {
