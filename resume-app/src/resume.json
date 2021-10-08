@@ -53,7 +53,7 @@
             "terms": "consultant",
             "details": [
                 "<p><ul>",
-                "<li> Using Azure [ServiceBus, DevOps, Functions, Sites, AppInsights, ARM Templates, and CLI], GitHub, and Angular to enhance airline discount management software.<\/li><\/ul><\/p>"
+                "<li> Using Azure [ServiceBus, DevOps, Functions, Sites, AppInsights, ARM Templates, KeyVault, and CLI], GitHub, and Angular to enhance airline discount management software.<\/li><\/ul><\/p>"
             ]
         },
         {
