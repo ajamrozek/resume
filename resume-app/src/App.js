@@ -1,8 +1,8 @@
 import './App.css';
 import React, { Component } from 'react';
 import { format } from 'date-fns'
-import * as AWS from 'aws-sdk'
-import { ConfigurationOptions } from 'aws-sdk'
+// import * as AWS from 'aws-sdk'
+// import { ConfigurationOptions } from 'aws-sdk'
 
 class App extends Component {
 
@@ -12,13 +12,13 @@ class App extends Component {
       resumeData: null
     };
 
-    const awsConfiguration = {
-      region:'us-east-2',
-      secretAccessKey: '7Zn9Z/qlj7olR5E5//LU/vpYfgHvoLBFV5kO/T70',
-      accessKeyId: 'AKIA332UJJCOVQY3TBGD'
-    }
+    // const awsConfiguration = {
+    //   region:'us-east-2',
+    //   secretAccessKey: '7Zn9Z/qlj7olR5E5//LU/vpYfgHvoLBFV5kO/T70',
+    //   accessKeyId: 'AKIA332UJJCOVQY3TBGD'
+    // }
   
-    AWS.config.update(awsConfiguration);
+    // AWS.config.update(awsConfiguration);
 
     this.SkillTemplate = this.SkillTemplate.bind(this);
     this.SkillsTemplate = this.SkillsTemplate.bind(this);
@@ -90,16 +90,17 @@ class App extends Component {
   }
 
   GetResumeData = function(){
-    const docClient = new AWS.DynamoDB.DocumentClient();
-    var params = {
-      TableName: "resume"
-    };
-    let self = this;
-    docClient.scan(params, function (err, data) {
-      if (!err) {
-        self.setState({resumeData: data.Items[0]});
-      }
-    });
+    // const docClient = new AWS.DynamoDB.DocumentClient();
+    // var params = {
+    //   TableName: "resume"
+    // };
+    //let self = this;
+    // docClient.scan(params, function (err, data) {
+    //   if (!err) {
+    //     self.setState({resumeData: data.Items[0]});
+    //   }
+    // });
+    this.setState({resumeData: require('./resume.json')});
   };
   
 
