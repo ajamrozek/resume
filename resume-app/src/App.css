@@ -95,20 +95,27 @@ header h1{
 .allJobs{
   margin-left:5px;
   font-size: 1em;
+  
 }
 
 .history .summary.job{
   margin-bottom:10px;
 }
 
+.history .summary.job .pg-break{
+  page-break-before: always;
+  break-before: always;
+}
 .history .summary.job .name{
   font-size: 1.1em;
   text-transform: capitalize;
 }
 
+
 .history .summary.job .details{
   font-size: .9em;
   width:100%;
+  
 }
 .history .summary.job .details p{
   margin-top:5px;

@@ -52,13 +52,13 @@
             "title": "sr developer",
             "terms": "part-time contractor",
             "details": [
-                "<p>CONTRIBUTOR <ul>",
+                "CONTRIBUTOR<ul>",
                 "<li>Re-engaged with prior team, Asset Management Production/Release Support, to build out custom release management utility using C#, ASP.Net Core 3.1, Razor, and SQL Server.<\/li>",
                 "<li>Refined and managed an MVP backlog with a group of interested stakeholders.<\/li>",
-                "<\/ul><\/p>",
-                "<p>MENTOR <ul>",
+                "<\/ul>",
+                "MENTOR<ul>",
                 "<li>Hosted daily working sessions with a junior engineer to advance their capabilities and empower them to contribute on the project.<\/li>",
-                "<\/ul><\/p>"                
+                "<\/ul>"                
             ]
         },
         {
@@ -69,9 +69,9 @@
             "title": "Sr Manager",
             "terms": "consultant",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li> Using Azure [ServiceBus, DevOps, Functions, Sites, AppInsights, ARM Templates, KeyVault, and CLI], GitHub, and Angular to enhance airline discount management software.<\/li>",
-                "<li> Develop and support .Net Core 3.1 APIs hosted in OpenShift Kubernetes containers. Used Visual Studio Pro & Code, GitHub and Jenkins DevOps tooling; Splunk for operational log tracing.<\/li><\/ul><\/p>"
+                "<li> Develop and support .Net Core 3.1 APIs hosted in OpenShift Kubernetes containers. Used Visual Studio Pro & Code, GitHub and Jenkins DevOps tooling; Splunk for operational log tracing.<\/li><\/ul>"
             ]
         },
         {
@@ -82,9 +82,9 @@
             "title": "full-stack developer",
             "terms": "independent",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li> Developed chat component for shipping &amp; logistics software. Leveraged SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines) <\/li>",
-                "<li> Introduced Unit Testing, Dapper ORM, query resource files, and AutoMapper<\/li><\/ul><\/p>"
+                "<li> Introduced Unit Testing, Dapper ORM, query resource files, and AutoMapper<\/li><\/ul>"
             ]
         },
         {
@@ -95,19 +95,19 @@
             "title": "sr developer",
             "terms": "contractor",
             "details": [
-                "<p>CONTRIBUTOR <ul>",
+                "CONTRIBUTOR <ul>",
                 "<li>Modernized ASP.Net 4.5.2 app on IIS to .Net Core (3.1) on PCF. Refactored hastily written procedural pattern into OOP with DDD. Applied async/await patterns<ul>",
                 "<li>Leveraged enterprise SSO for Authn/Authz &bull; REST API and Microservice Development with ASP.Net Core (2.1) and RabbitMQ<\/li><\/ul>",
                 "<li>Developed chat component for shipping &amp; logistics software. Leveraged SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines)<\/li>",
                 "<li>DevOps with BitBucket, Bamboo, PowerShell, and Pivotal Cloud<\/li>",
                 "<li>Veracode/CWE remediation &bull; ETL Processing with SQL Server [OLTP, Agent, Service Broker] and Informatica<\/li>",
-                "<li>Test-Automation with Zephyr, .Net, and PostMan<\/li><\/ul></p>",
-                "<p>LEADER <ul>",
+                "<li>Test-Automation with Zephyr, .Net, and PostMan<\/li><\/ul>",
+                "LEADER <ul>",
                 "<li>Unit Test Champion<\/li>",
                 "<li>Quality Champion with SonarQube and SonarLint<\/li>",
                 "<li>Coach teammates and screen candidates on C# and SOA<\/li>",
                 "<li>Evolved Release Documentation Automation with AngularJS and Atlassian API Integration<ul>",
-                "<li>Reduced release errors and increased reporting fidelity<\/li><\/ul><\/li><\/ul></p>"
+                "<li>Reduced release errors and increased reporting fidelity<\/li><\/ul><\/li><\/ul>"
             ]
         },
         {
@@ -118,10 +118,10 @@
             "title": "Principal Consultant",
             "terms": "consultant",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li>DevOps with GitLab, Jenkins, Docker, and Kubernetes to telecommunications supply chain software<\/li><ul>",
                 "<li>Designed CI/CD Pipelines. Instantiated Operations Posture with ASP Middleware and Splunk<\/li><\/ul><\/li>",
-                "<li>Microservice Development with .Net Core (2.2) and Angular (7) on CentOS<\/ul></p>"
+                "<li>Microservice Development with .Net Core (2.2) and Angular (7) on CentOS<\/ul>"
             ]
         },
         {
@@ -132,15 +132,15 @@
             "title": "Tech Lead, Architect",
             "terms": "associate",
             "details": [
-                "<p>ARCHITECTURE <ul>",
+                "ARCHITECTURE <ul>",
                 "<li>Distributed N-Tier design across an array of products and practices <\/li>",
                 "<li>Coding, structure, and ALM guidance<\/li>",
                 "<li>Advise Business and IT stakeholders on opportunities and risks<\/li>",
                 "<li>Pursue architectural congruity across division and enterprise<\/li>",
                 "<li>Applied an ESB to stabilize, defragment, and refine existing SOAs<\/li>",
                 "<li>Internal enterprise R&D community member, API small group<\/li>",
-                "<li>Operational inventory and stability, Dev-Prod<\/li><\/ul></p>",
-                "<p>DEVELOPMENT / OPERATIONS <ul>",
+                "<li>Operational inventory and stability, Dev-Prod<\/li><\/ul>",
+                "DEVELOPMENT / OPERATIONS <ul>",
                 "<li>Build and Run support for security (Veracode/CWE remediation, Authentication/Authorization) , mission critical coding, and configuration management in Web (Angular 6), Windows (IIS, Services, MSMQ), SQL Server, and .Net (Core, Full)<\/li>",
                 "<li>Quality Champion with SonarQube and SonarLint<\/li>",
                 "<li>Automated configuration management tasks with PowerShell<\/li>",
@@ -152,7 +152,7 @@
                 "<li>Enterprise CI/CD practices and tooling committee member<\/li>",
                 "<li>Revolutionized delivery repeatability and quality with Build automation<\/li>",
                 "<li>Refactored shared class libraries from Visual Studio project references to separate solutions and applied NuGet package publication to them<\/li><\/ul>",
-                "<p>LEADER<ul>",
+                "LEADER<ul>",
                 "<li>Manage direct reports (and consultants)<\/li>",
                 "<li>Mentor associates on development and delivery<\/li>",
                 "<li>Interoffice travel for guidance and collaboration<\/li>",
@@ -161,7 +161,7 @@
                 "<li>Lead multiple development teams<\/li>",
                 "<li>Coached and mastered first divisional Scrum team <ul>",
                 "<li>Delivered internal application to offshore call centers in less than nine months with two-three developers. Resulted in ~3.5 minutes avg. call time reduction<\/li>",
-                "<li>Divisional adoption now complete, success garnered corporate exec approval, influencing corporate practices<\/li><\/ul><\/li><\/ul><\/p>"
+                "<li>Divisional adoption now complete, success garnered corporate exec approval, influencing corporate practices<\/li><\/ul><\/li><\/ul>"
             ]
         },
         {
@@ -172,7 +172,7 @@
             "title": "Sr Consultant",
             "terms": "contractor",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li>Architected and built a JavaScript data control binding and persistence framework <\/li>",
                 "<li>Envisioned and implemented asynchronous interaction patterns and structures<\/li>",
                 "<li>Ported graphics heavy WinForm to WebForm<\/li>",
@@ -180,7 +180,7 @@
                 "<li>StatusBar, RequestManager, PendingRequest, SaveButton<\/li><\/ul><\/li>",
                 "<li>Investigated and resolved memory management issues <\/li>",
                 "<li>Coached peers on web application design and interaction patterns, JavaScript, .Net Anonymous and Dynamic types, and LINQ/Lambda syntax<\/li>",
-                "<li>.Net (VB), SQL Server<\/li><\/ul><\/p>"
+                "<li>.Net (VB), SQL Server<\/li><\/ul>"
             ]
         },
         {
@@ -191,15 +191,15 @@
             "title": "engineering lead",
             "terms": "associate",
             "details": [
-                "<p>CONTRIBUTOR <ul>",
+                "CONTRIBUTOR <ul>",
                 "<li>Applied ALM Practices to SQL Server Database Objects with MS Visual Studio 2010 Database Projects <\/li>",
                 "<li>Engineered public, subscription based website, SSIS ETL Processes, and SQL Server objects<\/li>",
                 "<li>Architected and launched an asynchronous JSON, jQuery based datagrid control with Entity Framework 4 and Unity 2<\/li>",
-                "<li>.Net (C#), SQL Server, SVN<\/li><\/ul><\/p>",
-                "<p>LEADER <ul>",
+                "<li>.Net (C#), SQL Server, SVN<\/li><\/ul>",
+                "LEADER <ul>",
                 "<li>Managed 6-8 Developers <\/li>",
                 "<li>Collaborated with business & IT stakeholders on capabilities and opportunities<\/li>",
-                "<li>Interviewed, hired, and fired developers <\/li><\/ul><\/p>"
+                "<li>Interviewed, hired, and fired developers <\/li><\/ul>"
             ]
         },
         {
@@ -210,7 +210,7 @@
             "title": "Sr developer",
             "terms": "contractor",
             "details": [
-                "<p><ul><li>.Net(C#), Silverlight, MS Prism MVVM, WebForms<\/li><\/ul><\/p>"
+                "<ul><li>.Net(C#), Silverlight, MS Prism MVVM, WebForms<\/li><\/ul>"
             ]
         },
         {
@@ -221,7 +221,7 @@
             "title": "Sr Developer",
             "terms": "associate",
             "details": [
-                "<p><ul><li>.Net (C#), SQL Server, WebForms, AJAX, WPF, Agile, TFS<\/li><\/ul><\/p>"
+                "<ul><li>.Net (C#), SQL Server, WebForms, AJAX, WPF, Agile, TFS<\/li><\/ul>"
             ]
         },
         {
@@ -232,7 +232,7 @@
             "title": "Sr developer",
             "terms": "associate",
             "details": [
-                "<p><ul><li>.Net (C#), SQL Server, WebForms, AJAX, SilverLight, Agile, OLAP, TFS<\/li><\/ul><\/p>"
+                "<ul><li>.Net (C#), SQL Server, WebForms, AJAX, SilverLight, Agile, OLAP, TFS<\/li><\/ul>"
             ]
         },
         {
@@ -243,9 +243,9 @@
             "title": "lead developer",
             "terms": "associate",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li>Mentored two jr developers, coordinated & reviewed offshore delivery<\/li>",
-                "<li>.Net (C#), AJAX, SQL Server, WCF<\/li><\/ul><\/p>"
+                "<li>.Net (C#), AJAX, SQL Server, WCF<\/li><\/ul>"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "title": "developer",
             "terms": "consultant",
             "details": [
-                "<p><ul><li>.Net (C#), SQL Server, WebForms, WCF, JavaScript, CSS, Ruby<\/li><\/ul><\/p>"
+                "<ul><li>.Net (C#), SQL Server, WebForms, WCF, JavaScript, CSS, Ruby<\/li><\/ul>"
             ]
         },
         {
@@ -267,9 +267,9 @@
             "title": "programmer analyst",
             "terms": "independent",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li>Systems migration<\/li>",
-                "<li>SQL Server, .Net, HTML<\/li><\/ul><\/p>"
+                "<li>SQL Server, .Net, HTML<\/li><\/ul>"
             ]
         },
         {
@@ -280,7 +280,7 @@
             "title": "jr programmer",
             "terms": "independent",
             "details": [
-                "<p><ul><li>HTML, CSS, .Net (VB), SQL Server<\/li><\/ul><\/p>"
+                "<ul><li>HTML, CSS, .Net (VB), SQL Server<\/li><\/ul>"
             ]
         },
         {
@@ -291,7 +291,7 @@
             "title": "data analyst, programmer",
             "terms": "contractor",
             "details": [
-                "<p><ul><li>MS Access, VBA<\/li><\/ul><\/p>"
+                "<ul><li>MS Access, VBA<\/li><\/ul>"
             ]
         },
         {
@@ -302,9 +302,9 @@
             "title": "software tester, web developer ",
             "terms": "associate",
             "details": [
-                "<p><ul>",
+                "<ul>",
                 "<li>Testing, test plans<\/li>",
-                "<li>ColdFusion, HTML, MS Access<\/li><\/ul><\/p>"
+                "<li>ColdFusion, HTML, MS Access<\/li><\/ul>"
             ]
         }
     ]
