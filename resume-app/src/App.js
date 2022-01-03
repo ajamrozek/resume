@@ -65,7 +65,7 @@ class App extends Component {
 
     var lastBreak = -100;
     var applyPageBreak = function (target) {
-      const pageThreshold = 809;
+      const pageThreshold = 843;
 
       if (target.children.length > 0) {
         for (let childIdx = 0; childIdx < target.children.length; childIdx++) {
@@ -77,9 +77,10 @@ class App extends Component {
       else {
         var workingTop = target.offsetTop;
         target.setAttribute("telemetry", JSON.stringify({ workingTop }));
-
+        //target.innerHTML +=  JSON.stringify({ workingTop });
         if (workingTop - lastBreak >= pageThreshold) {
           lastBreak = workingTop;
+          
           target.classList.add('pg-break');
         }
       }
