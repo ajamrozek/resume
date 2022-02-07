@@ -83,7 +83,7 @@
             "terms": "independent",
             "details": [
                 "<ul>",
-                "<li> Developed chat component for shipping &amp; logistics software. Leveraged SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines) <\/li>",
+                "<li> Developed chat component for shipping &amp; logistics software. Leveraged Twilio, SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines) <\/li>",
                 "<li> Introduced Unit Testing, Dapper ORM, query resource files, and AutoMapper<\/li><\/ul>"
             ]
         },
