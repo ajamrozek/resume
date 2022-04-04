@@ -16,9 +16,7 @@ class App extends Component {
   }
 
   SkillTemplate = function (props) {
-    // if(!props.skills){
-    //   return null;
-    // }
+    
     return props.skills.map(skill => <li key={skill}>{skill}</li>);
   };
 
@@ -91,8 +89,8 @@ class App extends Component {
       .map((job, idx) => <div id={"job" + idx} key={"job" + idx} className={"summary job"}>
         <span className="name">{job.clientName}</span>
         <span className="right">
-          <span className="location">{job.location}</span>
-          <span className="dates">[{format(Date.parse(job.start), "M/yyyy")} - {job.end != null ? format(Date.parse(job.end), "M/yyyy") : "present"}]</span>
+          <span className="location"> {job.location} </span>
+          <span className="dates"> [{format(Date.parse(job.start), "M/yyyy")} - {job.end != null ? format(Date.parse(job.end), "M/yyyy") : "present"}] </span>
         </span>
         <div className="title-terms">
           <span className="title">{job.title.trim()} - {job.terms}</span>
@@ -123,9 +121,12 @@ class App extends Component {
           <h1 style={{ marginBottom: 0 }}>Alex Jamrozek</h1>
           <h3 style={{ margin: 0 }}>{this.state.resumeData?.title}</h3>
           <p >{this.state.resumeData?.tagLine} </p>
+          <h4 class="h-section">Skills</h4>
           <this.SkillsTemplate skills={this.state.resumeData?.skills} />
+          <h4 class="h-section">Education</h4>
           <this.EducationTemplate education={this.state.resumeData?.education} />
         </header>
+        <h4 class="h-section">Professional Experience</h4>
         <this.JobsTemplate jobs={this.state.resumeData?.jobs} />
       </div>);
   }
