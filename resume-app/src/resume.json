@@ -1,6 +1,6 @@
 {
     "title": "Software Architect",
-    "tagLine": "Over 20 years in App Dev. Action & Results Oriented. Tenacious & Adaptive. Professional & Humane.",
+    "tagLine": "Over 20 years in App Dev. Action, Results, & Growth Oriented. Tenacious & Adaptive. Professional & Humane.",
     "skills": {
         "technical": [
             "Enterprise Architecture",
@@ -53,8 +53,9 @@
             "terms": "part-time contractor",
             "details": [
                 "CONTRIBUTOR<ul>",
-                "<li>Re-engaged with prior team, Asset Management Production/Release Support, to build out custom release management utility using C#, ASP.Net Core 3.1, Blazor, and SQL Server.<\/li>",
+                "<li>Re-engaged with prior team, Asset Management Production/Release Support, to build out custom release management Jira integrated utility hosted in VMWare Tanzu using C#, ASP.Net Core 3.1, Blazor, and SQL Server.<\/li>",
                 "<li>Refined and managed an MVP backlog with a group of interested stakeholders.<\/li>",
+                "<li>Rough, Kanaban style backlog management in Jira.<\/li>",
                 "<\/ul>",
                 "MENTOR<ul>",
                 "<li>Hosted daily working sessions with a junior engineer to advance their capabilities and empower them to contribute on the project.<\/li>",
@@ -70,8 +71,10 @@
             "terms": "consultant",
             "details": [
                 "<ul>",
-                "<li> Using Azure [ServiceBus, DevOps, Functions, Sites, AppInsights, ARM Templates, KeyVault, and CLI], GitHub, and Angular to enhance airline discount management software.<\/li>",
-                "<li> Develop and support .Net Core 3.1 APIs hosted in OpenShift Kubernetes containers. Used Visual Studio Pro & Code, GitHub and Jenkins DevOps tooling; Splunk for operational log tracing.<\/li><\/ul>"
+                "<li>Using Azure [ServiceBus, DevOps, Functions, Sites, AppInsights, ARM Templates, KeyVault, and CLI], GitHub, and Angular to enhance airline discount management software.<\/li>",
+                "<li>Develop and support .Net Core 3.1 APIs hosted in OpenShift Kubernetes containers. Used Visual Studio Pro & Code, GitHub and Jenkins DevOps tooling; Splunk for operational log tracing.<\/li>",
+                "<li>Used Jira for work item tracking. Confluence for documentation.<\/li>",
+                "<\/ul>"
             ]
         },
         {
@@ -83,8 +86,8 @@
             "terms": "independent",
             "details": [
                 "<ul>",
-                "<li> Developed chat component for shipping &amp; logistics software. Leveraged Twilio, SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines) <\/li>",
-                "<li> Introduced Unit Testing, Dapper ORM, query resource files, and AutoMapper<\/li><\/ul>"
+                "<li>Developed chat component for shipping &amp; logistics software. Leveraged Twilio, SQL Server, ASP.Net MVC (.Net 4.8), Kendo MVVM, and Azure DevOps (Git &amp; Pipelines) <\/li>",
+                "<li>Introduced Unit Testing, Dapper ORM, query resource files, and AutoMapper<\/li><\/ul>"
             ]
         },
         {
@@ -98,9 +101,10 @@
                 "CONTRIBUTOR <ul>",
                 "<li>Modernized ASP.Net 4.5.2 app on IIS to .Net Core (3.1) on PCF. Refactored hastily written procedural pattern into OOP with DDD. Applied async/await patterns<\/li>",
                 "<li>Leveraged enterprise SSO for Authn/Authz &bull; REST API and Microservice Development with ASP.Net Core (2.1) and RabbitMQ<\/li>",
-                "<li>DevOps with BitBucket, Bamboo, PowerShell, and Pivotal Cloud<\/li>",
+                "<li>DevOps with Atlassian (BitBucket, Bamboo), PowerShell, and Pivotal Cloud<\/li>",
                 "<li>Veracode/CWE remediation &bull; ETL Processing with SQL Server [OLTP, Agent, Service Broker] and Informatica<\/li>",
                 "<li>Test-Automation with Zephyr, .Net, and PostMan<\/li><\/ul>",
+                "<li>Refined and managed BAU operations and backlog with Atlassian suite (Jira, Confluence) <\/li>",
                 "LEADER <ul>",
                 "<li>Unit Test Champion<\/li>",
                 "<li>Quality Champion with SonarQube and SonarLint<\/li>",
