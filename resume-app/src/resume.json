@@ -47,8 +47,20 @@
         {
             "clientName": "Modis IT (Charles Schwab)",
             "location": "Remote",
-            "start": "11/1/2021",
+            "start": "6/6/2022",
             "end": null,
+            "title": "sr developer",
+            "terms": "contractor",
+            "details": [
+                "CONTRIBUTOR<ul>",
+                "<li>Full-stack development, testing, and deployment of Python data processing engine<\/li>",
+                "<\/ul>"
+            ]
+        },{
+            "clientName": "Modis IT (Charles Schwab)",
+            "location": "Remote",
+            "start": "11/1/2021",
+            "end": "6/3/2022",
             "title": "sr developer",
             "terms": "part-time contractor",
             "details": [
