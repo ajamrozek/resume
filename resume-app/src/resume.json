@@ -53,7 +53,9 @@
             "terms": "contractor",
             "details": [
                 "CONTRIBUTOR<ul>",
-                "<li>Full-stack development, testing, and deployment of Python data processing engine<\/li>",
+                "<li>Evaluated a Python data processing engine and consulted on pivoting to a .Net platform that had wider support across the firm.<\/li>",
+                "<li>Full-stack development, testing, and deployment of .Net 6 data processing engine.<\/li>",                
+                "<li>Mentored team members on C#/.Net and SQL Server development practices.<\/li>",
                 "<\/ul>"
             ]
         },{
