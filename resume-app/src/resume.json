@@ -58,7 +58,7 @@
                     "Performance was optimized with startup pre-compilation and transaction parralelism. ",
                     "Atomic failures were handled gracefully allowing a batch to complete. Results were standardized for aggregation and reporting. <\/li>",
                 "<li>Evaluated a Python solution and consulted on pivoting to .Net for better support across the firm.<\/li>",
-                "<li>Upgraded product solutions from .net Core 3.1 to .Net 6.<\/li>",
+                "<li>Upgraded product solutions from .Net Core 3.1 to .Net 6.<\/li>",
                 "<li>Ran regression test suites using verbose PostMan assets locally and on a testing server.<\/li>",
                 "<li>Mentored team members on C#/.Net and SQL Server development practices.<\/li>",
                 "<\/ul>"
