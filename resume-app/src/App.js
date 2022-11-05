@@ -40,12 +40,12 @@ class App extends Component {
     }
 
     var educationTemplate = props.education
-      .sort((a, b) => a.start < b.start ? 1 : -1)
+      .sort((a, b) => a.end.slice(-4) < b.end.slice(-4) ? 1 : -1)
       .map((edu, idx) => <div key={"edu" + idx} className={"summary education"}>
         <span className="name">{edu.name}</span>
         <span className="right">
-          <span className="location">({edu.location})</span>
-          <span className="dates">[{edu.start} - {edu.end}]</span>
+          <span className="location">{edu.location != null && <span>({edu.location})</span>}</span>
+          <span className="dates">[{edu.start != null && <span>{edu.start} - </span>}{edu.end}]</span>
         </span>
         <div className="title-terms">
           <span className="field">{edu.field}</span>
@@ -84,13 +84,20 @@ class App extends Component {
       }
     };
 
+    var parseEndClients = function(endClients){
+      if(endClients){
+        return `<p>End Clients: ${endClients}</p>`;
+      }
+      return "";
+    };
+
     var jobsTemplate = props.jobs
       .sort((a, b) => Date.parse(a.start) < Date.parse(b.start) ? 1 : -1)
       .map((job, idx) => <div id={"job" + idx} key={"job" + idx} className={"summary job"}>
         <span className="name">{job.clientName}</span>
         <span className="right">
-          <span className="location"> {job.location} </span>
-          <span className="dates"> [{format(Date.parse(job.start), "M/yyyy")} - {job.end != null ? format(Date.parse(job.end), "M/yyyy") : "present"}] </span>
+          {/* <span className="location"> {job.location} </span> */}
+          <span className="dates"> {format(Date.parse(job.start), "M/yyyy")} - {job.end != null ? format(Date.parse(job.end), "M/yyyy") : "present"} </span>
         </span>
         <div className="title-terms">
           <span className="title">{job.title.trim()} - {job.terms}</span>
@@ -102,7 +109,7 @@ class App extends Component {
 
             applyPageBreak(el);
           }}
-          dangerouslySetInnerHTML={{ __html: job.details.join("") }} />
+          dangerouslySetInnerHTML={{ __html: `${parseEndClients(job.endClients)}<pre>${job.details.join("")}</pre>` }} />
 
       </div>)
 

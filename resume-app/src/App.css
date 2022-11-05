@@ -85,6 +85,10 @@ header h1{
   margin:0;
 }
 
+.location:before {
+  content: "\00a0";
+}
+
 .allEducation{  
   width:60%;
   margin-left: -10%;
@@ -100,6 +104,9 @@ header h1{
 
 .history .summary.job{
   margin-bottom:10px;
+}
+.job:after {
+  content: "\00000a";
 }
 
 .history .summary.job .pg-break{

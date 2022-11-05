@@ -29,6 +29,11 @@
     },
     "education": [
         {
+            "name": "Microsoft Certified",
+            "field": "Azure Fundamentals",
+            "end": "11/2022"
+        },
+        {
             "name": "DeVry University",
             "location": "Westminster, CO",
             "field": "Computer Information Systems",
@@ -45,7 +50,8 @@
     ],
     "jobs": [
         {
-            "clientName": "Modis IT (Charles Schwab)",
+            "clientName": "Modis IT",
+            "endClients":["Charles Schwab"],
             "location": "Remote",
             "start": "6/6/2022",
             "end": null,
@@ -63,8 +69,10 @@
                 "<li>Mentored team members on C#/.Net and SQL Server development practices.<\/li>",
                 "<\/ul>"
             ]
-        },{
-            "clientName": "Modis IT (Charles Schwab)",
+        },
+        {
+            "clientName": "Modis IT",
+            "endClients":["Charles Schwab"],
             "location": "Remote",
             "start": "11/1/2021",
             "end": "6/3/2022",
@@ -82,7 +90,8 @@
             ]
         },
         {
-            "clientName": "Nexient (Alaska Airlines, confidential)",
+            "clientName": "Nexient",            
+            "endClients":["Alaska Airlines, First Republic Bank"],
             "location": "Remote",
             "start": "7/6/2021",
             "end": "5/27/2022",
@@ -110,7 +119,8 @@
             ]
         },
         {
-            "clientName": "Modis IT (Charles Schwab)",
+            "clientName": "Modis IT",
+            "endClients":["Charles Schwab"],
             "location": "Denver, CO",
             "start": "8/1/2019",
             "end": "2/28/2021",
@@ -134,10 +144,11 @@
         },
         {
             "clientName": "Infosys",
+            "endClients":["CenturyLink"],
             "location": "Palo Alto, CA; Littleton, CO",
             "start": "1/2/2019",
             "end": "7/31/2019",
-            "title": "Principal Consultant",
+            "title": "Principal",
             "terms": "consultant",
             "details": [
                 "<ul>",
@@ -187,7 +198,8 @@
             ]
         },
         {
-            "clientName": "Randstad Technologies (DataCard)",
+            "clientName": "Randstad Technologies",
+            "endClients":["DataCard"],
             "location": "Greenwood Village, CO",
             "start": "1/1/2012",
             "end": "7/31/2012",
@@ -224,7 +236,8 @@
             ]
         },
         {
-            "clientName": "prodigy resources (Ascend Clinical)",
+            "clientName": "prodigy resources",
+            "endClients":["Ascend Clinical"],
             "location": "Greenwood Village, CO",
             "start": "5/1/2011",
             "end": "6/30/2011",
@@ -270,7 +283,8 @@
             ]
         },
         {
-            "clientName": "avanade (CH2M Hill, Navitaire)",
+            "clientName": "avanade",
+            "endClients":["CH2M Hill, Navitaire"],
             "location": "US West Region",
             "start": "11/1/2005",
             "end": "5/30/2007",
@@ -305,7 +319,8 @@
             ]
         },
         {
-            "clientName": "The JobStore (qwest communications) ",
+            "clientName": "The JobStore",
+            "endClients":["qwest communications"],
             "location": "Littleton, CO",
             "start": "1/2/2001",
             "end": "12/31/2003",
