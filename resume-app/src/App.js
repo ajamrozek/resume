@@ -1,6 +1,5 @@
 import './App.css';
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
 import { format } from 'date-fns'
 
 class App extends Component {
@@ -109,7 +108,7 @@ class App extends Component {
 
             applyPageBreak(el);
           }}
-          dangerouslySetInnerHTML={{ __html: `${parseEndClients(job.endClients)}<pre>${job.details.join("")}</pre>` }} />
+          dangerouslySetInnerHTML={{ __html: `${parseEndClients(job.endClients)}${job.details.join("")}` }} />
 
       </div>)
 
@@ -128,12 +127,12 @@ class App extends Component {
           <h1 style={{ marginBottom: 0 }}>Alex Jamrozek</h1>
           <h3 style={{ margin: 0 }}>{this.state.resumeData?.title}</h3>
           <p >{this.state.resumeData?.tagLine} </p>
-          <h4 class="h-section">Skills</h4>
+          <h4 className="h-section">Skills</h4>
           <this.SkillsTemplate skills={this.state.resumeData?.skills} />
-          <h4 class="h-section">Education</h4>
+          <h4 className="h-section">Education</h4>
           <this.EducationTemplate education={this.state.resumeData?.education} />
         </header>
-        <h4 class="h-section">Professional Experience</h4>
+        <h4 className="h-section">Professional Experience</h4>
         <this.JobsTemplate jobs={this.state.resumeData?.jobs} />
       </div>);
   }
