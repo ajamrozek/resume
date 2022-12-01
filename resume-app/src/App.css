@@ -70,7 +70,15 @@ header h1{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.job .end-clients::after{
+  content: "\a ";
+  white-space: pre;
+}
 
+.job .details::after{
+  content: "\a ";
+  white-space: pre;
+}
 .history .summary .left{
   align-self:flex-start;
 }
@@ -79,6 +87,11 @@ header h1{
 }
 .history .summary span.dates{
     text-align: right;
+}
+
+.history .summary span.dates::before{
+  content: ' ';
+  white-space: pre;
 }
 
 .history p {

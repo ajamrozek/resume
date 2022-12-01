@@ -85,7 +85,7 @@ class App extends Component {
 
     var parseEndClients = function(endClients){
       if(endClients){
-        return `<p>End Clients: ${endClients}</p>`;
+        return `<div class="end-clients">End Clients: ${endClients} </div>`;
       }
       return "";
     };
