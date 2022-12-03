@@ -30,6 +30,10 @@
     "education": [
         {
             "name": "Microsoft Certified",
+            "field": "Azure Developer Associate",
+            "end": "12/2022"
+        },{
+            "name": "Microsoft Certified",
             "field": "Azure Fundamentals",
             "end": "11/2022"
         },

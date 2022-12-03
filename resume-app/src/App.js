@@ -44,7 +44,7 @@ class App extends Component {
         <span className="name">{edu.name}</span>
         <span className="right">
           <span className="location">{edu.location != null && <span>({edu.location})</span>}</span>
-          <span className="dates">[{edu.start != null && <span>{edu.start} - </span>}{edu.end}]</span>
+          <span className="dates">[{edu.start != null && <span>{edu.start} -</span>}{edu.end}]</span>
         </span>
         <div className="title-terms">
           <span className="field">{edu.field}</span>
