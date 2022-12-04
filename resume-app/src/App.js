@@ -39,7 +39,6 @@ class App extends Component {
     }
 
     var educationTemplate = props.education
-      .sort((a, b) => a.end.slice(-4) < b.end.slice(-4) ? 1 : -1)
       .map((edu, idx) => <div key={"edu" + idx} className={"summary education"}>
         <span className="name">{edu.name}</span>
         <span className="right">
