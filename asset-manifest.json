@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/resume-app/static/css/main.7e2fe373.chunk.css",
-    "main.js": "/resume-app/static/js/main.385c9c29.chunk.js",
-    "main.js.map": "/resume-app/static/js/main.385c9c29.chunk.js.map",
-    "runtime-main.js": "/resume-app/static/js/runtime-main.0cc5eb10.js",
-    "runtime-main.js.map": "/resume-app/static/js/runtime-main.0cc5eb10.js.map",
-    "static/js/2.40b845c2.chunk.js": "/resume-app/static/js/2.40b845c2.chunk.js",
-    "static/js/2.40b845c2.chunk.js.map": "/resume-app/static/js/2.40b845c2.chunk.js.map",
-    "static/js/3.71413584.chunk.js": "/resume-app/static/js/3.71413584.chunk.js",
-    "static/js/3.71413584.chunk.js.map": "/resume-app/static/js/3.71413584.chunk.js.map",
+    "main.css": "/resume-app/static/css/main.e304b4fb.css",
+    "main.js": "/resume-app/static/js/main.b35ac253.js",
+    "static/js/787.1981d85c.chunk.js": "/resume-app/static/js/787.1981d85c.chunk.js",
     "index.html": "/resume-app/index.html",
-    "static/css/main.7e2fe373.chunk.css.map": "/resume-app/static/css/main.7e2fe373.chunk.css.map",
-    "static/js/2.40b845c2.chunk.js.LICENSE.txt": "/resume-app/static/js/2.40b845c2.chunk.js.LICENSE.txt"
+    "main.e304b4fb.css.map": "/resume-app/static/css/main.e304b4fb.css.map",
+    "main.b35ac253.js.map": "/resume-app/static/js/main.b35ac253.js.map",
+    "787.1981d85c.chunk.js.map": "/resume-app/static/js/787.1981d85c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0cc5eb10.js",
-    "static/js/2.40b845c2.chunk.js",
-    "static/css/main.7e2fe373.chunk.css",
-    "static/js/main.385c9c29.chunk.js"
+    "static/css/main.e304b4fb.css",
+    "static/js/main.b35ac253.js"
   ]
 }
