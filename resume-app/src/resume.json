@@ -72,6 +72,9 @@
                 "<li>Evaluated a Python solution and consulted on pivoting to .Net for better support across the firm.<\/li>",
                 "<li>Upgraded product solutions from .Net Core 3.1 to .Net 6.<\/li>",
                 "<li>Ran regression test suites using verbose PostMan assets locally and on a testing server.<\/li>",
+                "<\/ul>", 
+                "ADVISOR<ul>",
+                "<li>Consulted on Release Process Optimization<\/li>",
                 "<li>Mentored team members on C#/.Net and SQL Server development practices.<\/li>",
                 "<\/ul>"
             ]
