@@ -61,7 +61,7 @@ class App extends Component {
 
     var lastBreak = -100;
     var applyPageBreak = function (target) {
-      const pageThreshold = 843;
+      const pageThreshold = 815;
 
       if (target.children.length > 0) {
         for (let childIdx = 0; childIdx < target.children.length; childIdx++) {
@@ -77,7 +77,7 @@ class App extends Component {
         if (workingTop - lastBreak >= pageThreshold) {
           lastBreak = workingTop;
           
-          target.classList.add('pg-break');
+          // target.classList.add('pg-break');
         }
       }
     };
