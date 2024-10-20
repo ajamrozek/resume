@@ -14,6 +14,8 @@ jobs:
       - name: List directory contents
         run: ls -la
         working-directory: ./resume-app
+      - name: Install dependencies
+        run: npm install
       - name: Build
         run: npm run build
         working-directory: ./resume-app
