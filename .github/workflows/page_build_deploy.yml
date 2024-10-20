@@ -16,6 +16,7 @@ jobs:
         working-directory: ./resume-app
       - name: Install dependencies
         run: npm install
+        working-directory: ./resume-app        
       - name: Build
         run: npm run build
         working-directory: ./resume-app
