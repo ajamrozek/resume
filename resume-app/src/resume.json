@@ -69,6 +69,7 @@
                 "<li>Facilitated and active participant in Scrum meetings.<\/li>",
                 "<li>Personally contributed appropriate structure and grammar to work items for clarity and scope precision.<\/li>",
                 "<li>Mentored new-hires and junior developers on internal and industry practices.<\/li>",
+                "<\/ul>", 
                 "CONTRIBUTOR<ul>",
                 "<li>Runtime triage and performance processing using Splunk.<\/li>",
                 "<li>End-to-end functional testing of HTTP endpoint using IntelliJ Http Client.<\/li>",
